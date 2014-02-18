@@ -57,6 +57,10 @@ table th {
   padding: 5px;
   border: 1px solid #ccc;
 }
+.content img {
+  max-width: 100%;
+  height: auto;
+}
 /* Pomocne tridy: clearovani atd. */
 /*
 
@@ -120,6 +124,22 @@ table th {
 .head {
   background: url('../../img/sportsmen.png') no-repeat right center;
   background-size: auto 150%;
+}
+/*
+
+--- Mapa mista konani ---
+
+*/
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 62.5%;
+}
+.map iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 /*
 
