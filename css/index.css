@@ -192,18 +192,20 @@ b .nav-item,
   border-bottom: none;
 }
 /* Layout pro siroke dipleje */
-.nav li {
-  width: 25%;
-  float: left;
-  margin: 0;
-  padding: 0;
-}
-.nav-item {
-  border-left: 1px solid #fff;
-  border-bottom: none;
-}
-.nav li:first-child .nav-item {
-  border-left: none;
+@media only screen and (min-width: 480px) {
+  .nav li {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-item {
+    border-left: 1px solid #fff;
+    border-bottom: none;
+  }
+  .nav li:first-child .nav-item {
+    border-left: none;
+  }
 }
 /*
 
@@ -243,7 +245,7 @@ b .nav-item,
   display: block;
 }
 /* Layout webu ve sloupeccich */
-@media screen {
+@media only screen and (min-width: 620px) {
   /*
 
 --- Layout - pro siroke displeje ---

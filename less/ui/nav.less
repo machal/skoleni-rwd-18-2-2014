@@ -53,18 +53,22 @@ b .nav-item,
 
 /* Layout pro siroke dipleje */
 
-.nav li {
-  width: percentage(245px/@containerWidth);
-  float: left;
-  margin: 0;
-  padding: 0;
-}
+@media only screen and (min-width: 480px) {
 
-.nav-item {
-  border-left: 1px solid #fff;
-  border-bottom: none;
-}
+  .nav li {
+    width: percentage(245px/@containerWidth);
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
 
-.nav li:first-child .nav-item {
-  border-left: none;
+  .nav-item {
+    border-left: 1px solid #fff;
+    border-bottom: none;
+  }
+
+  .nav li:first-child .nav-item {
+    border-left: none;
+  }
+
 }
